@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Movies</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    
+    <!-- Start of Container for Movie Posters -->
+    <div class="container">
+        <button onclick="stopSnippet()">Stop Song</button> 
+        <div class="gallery">
+
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="clickedEvent(this.id)"> <!-- TODO Add onclick event to trigger getSong->playSong -->
+                <img src="images/inception.jpg" alt="Time - Hans Zimmer" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="clickedEvent(this.id)"> <!-- TODO Add onclick event to trigger getSong->playSong -->
+                <img src="images/joker.jpg" alt="Why So Serious? - Hans Zimmer" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="clickedEvent(this.id)"> <!-- TODO Add onclick event to trigger getSong->playSong -->
+                <img src="images/hardball.jpg" alt="Big Poppa - The Notorious B.I.G." class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="clickedEvent(this.id)"> <!-- TODO Add onclick event to trigger getSong->playSong -->
+                <img src="images/topgun.jpg" alt="Danger Zone Top Gun - Kenny Loggins" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="clickedEvent(this.id)"> <!-- TODO Add onclick event to trigger getSong->playSong -->
+                <img src="images/potter.jpg" alt="Prologue - John Williams" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="clickedEvent(this.id)"> <!-- TODO Add onclick event to trigger getSong->playSong -->
+                <img src="images/mission.jpg" alt="Mission: Accomplished - Lorne Balfe" class="gallery__img">
+            </figure>
+
+        </div>
+    </div>
+</body>
+</html>
